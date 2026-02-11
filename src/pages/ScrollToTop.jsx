@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const ScrollToTop = () => {
 
-    const [isVisible, setIsVisible] = useState(false);
+    const [, setIsVisible] = useState(false);
 
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {

@@ -48,7 +48,7 @@ import { useEffect } from "react";
 import { MagnifyingGlass } from "react-loader-spinner";
 import FAQ from "./FooterElements/Faq";
 const Home = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
